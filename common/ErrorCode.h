@@ -1,0 +1,11 @@
+//
+// Created by biubiubiu on 2020/12/16.
+//
+
+#ifndef DESIGBPATTERNS_ERRORCODE_H
+#define DESIGBPATTERNS_ERRORCODE_H
+
+#define SUCCESS 0
+#define ERROR 1
+
+#endif //DESIGBPATTERNS_ERRORCODE_H

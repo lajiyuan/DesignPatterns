@@ -8,8 +8,9 @@
 int main(int argc, char **argv) {
     google::InitGoogleLogging(argv[0]);
     FLAGS_alsologtostderr = true;
-    std::cout << "Hello, World!" << std::endl;
     Application app(1, 2);
     app.Run();
+    Application app2(3,4);
+    app2.Run();
     return 0;
 }
